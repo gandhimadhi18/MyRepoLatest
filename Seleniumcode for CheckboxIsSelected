@@ -1,0 +1,29 @@
+package seleniumTutorial;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CheckboxIsSelected {
+
+	public static void main(String[] args) {
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gandhimadhi.DESKTOP-9AGCCTE\\selenium\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+            ChromeDriver driver = new ChromeDriver();
+            driver = new ChromeDriver();
+            driver.get("https://practice.automationbyte.com/forms/basic-form-1");
+            boolean isChecked = driver.findElement(By.xpath("//*[@id=\"user-registration-form\"]/div[1]/div[5]/div[1]/label")).isSelected();
+	        String WebsiteTitle = driver.getTitle();
+	        System.out.println("Website Title: " + WebsiteTitle);
+	        WebElement HobbiesCricket = driver.findElement(By.cssSelector("#user-registration-form > div.box-body > div:nth-child(5) > div:nth-child(2) > label"));
+	        HobbiesCricket.click();
+	        System.out.println("Cricket is selected:" + HobbiesCricket.isSelected());
+	        boolean isSelected = true;
+	        boolean isnotSelected = false;
+	        if(!HobbiesCricket.isSelected()) {
+	        	
+	        	System.out.println("Option is selected:");
+	  	        }else {
+	  	        	System.out.println("Option is not selected:");
+	  	        }
+	           	}
+	            }

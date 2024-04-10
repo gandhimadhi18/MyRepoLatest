@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-04T19:33:20 IST" name="Suite" finished-at="2024-03-04T19:33:20 IST" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2024-03-04T19:33:20 IST" name="Test" finished-at="2024-03-04T19:33:20 IST" duration-ms="45">
+      <class name="Sample1.Work">
+        <test-method signature="Hybrid()[pri:0, instance:Sample1.Work@272ed83b]" started-at="2024-03-04T19:33:20 IST" name="Hybrid" finished-at="2024-03-04T19:33:20 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hybrid -->
+      </class> <!-- Sample1.Work -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
